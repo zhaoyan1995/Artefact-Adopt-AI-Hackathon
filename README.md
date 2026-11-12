@@ -46,7 +46,7 @@ Clone the repository and install dependencies:
 ```bash
 git clone <repository-url>
 cd hackathon_11_26
-pnpm install
+pnpm install --frozen-lockfile
 ```
 
 ## 5. Environment Configuration
