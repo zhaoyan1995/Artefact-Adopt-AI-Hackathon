@@ -4,14 +4,14 @@ import { AppService } from './app.service';
 import { HealthModule } from './modules/health/health.module';
 import { DatabaseModule } from './database/database.module';
 import { UsersModule } from './modules/users/users.modules';
-import { AiModule } from './modules/ai/ai.module';
+import { AIModule } from './modules/ai/ai.module';
 
 @Module({
   imports: [
     HealthModule, 
     DatabaseModule, 
     UsersModule,
-    AiModule,
+    AIModule,
   ],
   controllers: [AppController],
   providers: [AppService],
